@@ -1,0 +1,47 @@
+.app-button {
+  border-radius: 50px 50px 50px 50px;
+  padding: 17px 50px 17px 50px;
+  color: #4054b2;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: all 0.1s;
+  &:hover:not(:disabled) {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.85);
+  }
+  &:disabled {
+    background: gray;
+  }
+  &--fill {
+    background-color: #59358f;
+    border: 1px solid #59358f;
+    color: white;
+    padding: 17px 35px 17px 35px;
+    &:hover {
+      background: rgba(99, 61, 164, 0.75);
+    }
+  }
+}
+
+.app-title {
+  font-size: 48px;
+  font-weight: 600;
+  //color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.mobile {
+  display: none;
+}
+
+.app-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}

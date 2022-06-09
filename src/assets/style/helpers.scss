@@ -1,0 +1,39 @@
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.rotateZ-180 {
+    transform: rotateZ(180deg);
+}
+
+.relative {
+    position: relative;
+}
